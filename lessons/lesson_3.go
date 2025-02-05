@@ -52,4 +52,8 @@ func main() {
 	} else {
 		fmt.Println("Ваше уравнение не имеет корней\nd = " + fmt.Sprint(d))
 	}
+
+	fmt.Scan(&a)
+
+	//  go build -ldflags "-s -w" - optimized build without debug sign
 }
